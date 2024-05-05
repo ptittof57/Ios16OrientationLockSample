@@ -1,10 +1,7 @@
-using Foundation;
-using Microsoft.Extensions.Logging;
 using UIKit;
 
 namespace IosOrientationLockMAUI.Platforms.iOS
 {
-    
     public abstract class AppDelegateEx : MauiUIApplicationDelegate
     {
         public virtual UIInterfaceOrientationMask CurrentLockedOrientation { get; set; }
